@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Screens.Screens.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/TopBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/TopBar">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_android_24"
+            android:text="ANDROID"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:background="#4CAF50" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonWebDev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_web_24"
+            android:text="WEB DEVeLopment"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:background="#F44336" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonFlutter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_flutter_dash_24"
+            android:text="Flutter"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:background="#2196F3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonCloud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_cloud_24"
+            android:text="Google cloud"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:background="#FFC107" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
