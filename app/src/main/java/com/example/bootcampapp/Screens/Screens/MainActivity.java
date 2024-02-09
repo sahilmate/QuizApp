@@ -22,44 +22,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    public void android(View view){
-
-        Toast.makeText(this, "Best of luck, mate!", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, AndroidActivity.class);
-        startActivity(intent);
-//        Animatoo.INSTANCE.animateSwipeRight(this);
-
-    }
-
-
-    public void webDev(View view){
-
-        Toast.makeText(this, "Best of luck, mate!", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, WebDevActivity.class);
-        startActivity(intent);
-//        Animatoo.INSTANCE.animateSwipeRight(this);
-
-    }
-
-    public void flutter(View view){
-
-        Toast.makeText(this, "Best of luck, mate!", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, FlutterActivity.class);
-        startActivity(intent);
-//        Animatoo.INSTANCE.animateSwipeRight(this);
-
-    }
-
-    public void g_cloud(View view){
-
-        Toast.makeText(this, "Best of luck, mate!", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, G_CloudActivity.class);
-        startActivity(intent);
-//        Animatoo.INSTANCE.animateSwipeRight(this);
-
-    }
-
-
-
 }
