@@ -13,6 +13,18 @@
         android:theme="@style/Theme.BootcampApp"
         tools:targetApi="31">
         <activity
+            android:name=".Screens.Screens.Helper.G_CloudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.Screens.Helper.FlutterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.Screens.Helper.WebDevActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.Screens.Helper.AndroidActivity"
+            android:exported="false" />
+        <activity
             android:name=".Screens.Screens.Authentication"
             android:exported="false" />
         <activity

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0b0d1d"
+    tools:context=".Screens.Screens.Helper.G_CloudActivity">
+
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#0b0d1d"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Question"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="521dp"
+            android:paddingRight="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#183b56"
+            android:elevation="6dp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:circularflow_radiusInDP="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topLayout">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/opt1"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_desing"
+            android:contentDescription="@string/app_name"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/opt2"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_desing"
+            android:contentDescription="@string/app_name"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/opt3"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_desing"
+            android:contentDescription="@string/app_name"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/opt4"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_desing"
+            android:contentDescription="@string/app_name"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

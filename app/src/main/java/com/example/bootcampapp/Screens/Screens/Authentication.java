@@ -27,9 +27,7 @@ import java.util.Map;
 public class Authentication extends AppCompatActivity {
 
     EditText editTextSignUpName, editTextSignUpEmail, editTextSignUpPassword, editTextSignUpConfPassword;
-    EditText editTextLogInEmail, editTextLoginPassword;
-
-    Button btnSignUp, btnLogIn;
+    Button btnSignUp;
 
     FirebaseAuth mAuth;
     private FirebaseFirestore mFirestore;
@@ -45,15 +43,11 @@ public class Authentication extends AppCompatActivity {
         setContentView(R.layout.activity_authentication);
 
 
-        editTextLogInEmail = findViewById(R.id.logEmail);
-        editTextLoginPassword = findViewById(R.id.logPass);
-
         editTextSignUpName = findViewById(R.id.signUpName);
         editTextSignUpEmail = findViewById(R.id.signUpEmail);
         editTextSignUpPassword = findViewById(R.id.signUpPassword);
         editTextSignUpConfPassword = findViewById(R.id.signUpPassConfirm);
 
-        btnLogIn = findViewById(R.id.login_button);
         btnSignUp = findViewById(R.id.signUpButton);
 
         mAuth = FirebaseAuth.getInstance();
@@ -68,12 +62,6 @@ public class Authentication extends AppCompatActivity {
             }
         });
 
-        btnLogIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                login();
-            }
-        });
     }
 
     private void signUp() {
@@ -137,17 +125,4 @@ public class Authentication extends AppCompatActivity {
 
     }
 
-    private void login() {
-        String email = editTextLogInEmail.getText().toString().trim();
-        String password = editTextLoginPassword.getText().toString().trim();
-
-        // Check if any field is empty
-        if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Email and password are required", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        // Perform Firebase logi
-    }
-
-    }
+}
