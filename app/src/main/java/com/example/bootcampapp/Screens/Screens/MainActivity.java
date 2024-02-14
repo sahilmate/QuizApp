@@ -55,5 +55,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void send(View view) {
+        // Perform actions when the "Login" TextView is clicked
+        Toast.makeText(this, "Login clicked", Toast.LENGTH_SHORT).show();
+
+    }
 
 }
