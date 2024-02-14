@@ -62,7 +62,8 @@
             android:textColor="@color/white"
             android:background="@drawable/edit_text_desing"
             android:contentDescription="@string/app_name"
-            app:cornerRadius="@android:dimen/thumbnail_height" />
+            app:cornerRadius="@android:dimen/thumbnail_height"
+            android:onClick="send" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/opt2"
@@ -72,7 +73,8 @@
             android:textColor="@color/white"
             android:background="@drawable/edit_text_desing"
             android:contentDescription="@string/app_name"
-            app:cornerRadius="@android:dimen/thumbnail_height" />
+            app:cornerRadius="@android:dimen/thumbnail_height"
+            android:onClick="send" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/opt3"
@@ -82,7 +84,8 @@
             android:layout_margin="5dp"
             android:background="@drawable/edit_text_desing"
             android:contentDescription="@string/app_name"
-            app:cornerRadius="@android:dimen/thumbnail_height" />
+            app:cornerRadius="@android:dimen/thumbnail_height"
+            android:onClick="send" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/opt4"
@@ -92,7 +95,8 @@
             android:textColor="@color/white"
             android:background="@drawable/edit_text_desing"
             android:contentDescription="@string/app_name"
-            app:cornerRadius="@android:dimen/thumbnail_height" />
+            app:cornerRadius="@android:dimen/thumbnail_height"
+            android:onClick="send" />
     </LinearLayout>
 
 
