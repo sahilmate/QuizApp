@@ -45,7 +45,7 @@
             android:textStyle="bold"
             android:textSize="24sp"
 
-            android:onClick="android"/>
+            android:onClick="handleButtonClick"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginRight="50dp"
@@ -55,13 +55,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/baseline_web_24"
-            android:text="WEB DEVeLopment"
+            android:text="WEB DEVELOPMENT"
             android:textColor="@color/white"
             android:backgroundTint="@color/red"
             android:background="@drawable/but_bag"
             android:textStyle="bold"
             android:textSize="24sp"
-            android:onClick="webDev"/>
+            android:onClick="handleButtonClick"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginRight="50dp"
@@ -77,7 +77,7 @@
             android:background="@drawable/but_bag"
             android:textStyle="bold"
             android:textSize="24sp"
-            android:onClick="flutter"/>
+            android:onClick="handleButtonClick"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginRight="50dp"
@@ -86,12 +86,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/baseline_cloud_24"
-            android:text="Google cloud"
+            android:text="Google Cloud"
             android:backgroundTint="#FFC107"
             android:background="@drawable/but_bag"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:onClick="handleButtonClick" />
 
 
     </LinearLayout>

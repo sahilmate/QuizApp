@@ -60,5 +60,12 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Login clicked", Toast.LENGTH_SHORT).show();
 
     }
+    public void handleButtonClick(View view) {
+        // Your code to handle the button click
+        Toast.makeText(this, "Button clicked!", Toast.LENGTH_SHORT).show();
+
+        // You can add more code here based on what you want to achieve
+    }
+
 
 }
