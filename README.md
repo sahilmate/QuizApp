@@ -29,9 +29,12 @@ Quiz App is an interactive Android application designed to quiz users on various
 
 ## Screenshots
 
-<img src="https://github.com/sahilmate/QuizApp/blob/main/Home%20Page.png" width="400" height="600">
-<img src="https://github.com/sahilmate/QuizApp/blob/main/Quiz%20Option%20Page.png" width="400" height="600">
-<img src="https://github.com/sahilmate/QuizApp/blob/main/Android%20Quiz.png" width="400" height="600">
+<div>
+  <img src="https://github.com/sahilmate/QuizApp/blob/main/Home%20Page.png" width="300" height="600">
+  <img src="https://github.com/sahilmate/QuizApp/blob/main/Quiz%20Option%20Page.png" width="300" height="600">
+  <img src="https://github.com/sahilmate/QuizApp/blob/main/Android%20Quiz.png" width="300" height="600">
+</div>
+
   
 ## Getting Started
 
